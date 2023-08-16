@@ -3,5 +3,9 @@ Rails.application.routes.draw do
     collection do
       get :top # get '/restaurants/top'
     end
+
+    member do
+      get :chef # get '/restaurants/43/chef'
+    end
   end
 end
